@@ -1,0 +1,86 @@
+\hypertarget{class_scene}{}\doxysection{Scene Class Reference}
+\label{class_scene}\index{Scene@{Scene}}
+
+
+Inheritance diagram for Scene\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{class_scene__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_scene_ae76b830c1156bb40bd744afb63776be2}{init\+Scene}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_scene_aafa9ccf4d019005fdd41672afd13a7a9}{update}} (float t)=0
+\item 
+virtual void \mbox{\hyperlink{class_scene_a213557d88d9ca606e33e5e32d849bdcc}{render}} (vec3 eye, vec3 point)=0
+\item 
+virtual void \mbox{\hyperlink{class_scene_a454bd0a09c125201fbb32e15d4f62fa3}{resize}} (int, int)=0
+\item 
+\mbox{\Hypertarget{class_scene_ad4f5967a666e9fa7f04d9885c3f511f1}\label{class_scene_ad4f5967a666e9fa7f04d9885c3f511f1}} 
+virtual void {\bfseries set\+Line\+Data} (float line\mbox{[}6\mbox{]})=0
+\item 
+\mbox{\Hypertarget{class_scene_a7dca9fc81baefc31487dc3913cfe1d72}\label{class_scene_a7dca9fc81baefc31487dc3913cfe1d72}} 
+virtual void {\bfseries set\+Rot} ()=0
+\item 
+\mbox{\Hypertarget{class_scene_a94609acc886969f4b263c7be794947a6}\label{class_scene_a94609acc886969f4b263c7be794947a6}} 
+virtual void {\bfseries set\+Alpha} (float alpha)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 8 of file scene.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_scene_ae76b830c1156bb40bd744afb63776be2}\label{class_scene_ae76b830c1156bb40bd744afb63776be2}} 
+\index{Scene@{Scene}!initScene@{initScene}}
+\index{initScene@{initScene}!Scene@{Scene}}
+\doxysubsubsection{\texorpdfstring{initScene()}{initScene()}}
+{\footnotesize\ttfamily virtual void Scene\+::init\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Load textures, initialize shaders, etc. 
+
+Implemented in \mbox{\hyperlink{class_scene_basic_a0575ddd74a9f9a5f238def19657f275e}{Scene\+Basic}}.
+
+\mbox{\Hypertarget{class_scene_a213557d88d9ca606e33e5e32d849bdcc}\label{class_scene_a213557d88d9ca606e33e5e32d849bdcc}} 
+\index{Scene@{Scene}!render@{render}}
+\index{render@{render}!Scene@{Scene}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily virtual void Scene\+::render (\begin{DoxyParamCaption}\item[{vec3}]{eye,  }\item[{vec3}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Draw your scene. 
+
+Implemented in \mbox{\hyperlink{class_scene_basic_a60dca4ee898ddad4437ec1e655097e9d}{Scene\+Basic}}.
+
+\mbox{\Hypertarget{class_scene_a454bd0a09c125201fbb32e15d4f62fa3}\label{class_scene_a454bd0a09c125201fbb32e15d4f62fa3}} 
+\index{Scene@{Scene}!resize@{resize}}
+\index{resize@{resize}!Scene@{Scene}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily virtual void Scene\+::resize (\begin{DoxyParamCaption}\item[{int}]{,  }\item[{int}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Called when screen is resized 
+
+Implemented in \mbox{\hyperlink{class_scene_basic_af8a829370fa5e7386f46b5b659f3a083}{Scene\+Basic}}.
+
+\mbox{\Hypertarget{class_scene_aafa9ccf4d019005fdd41672afd13a7a9}\label{class_scene_aafa9ccf4d019005fdd41672afd13a7a9}} 
+\index{Scene@{Scene}!update@{update}}
+\index{update@{update}!Scene@{Scene}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily virtual void Scene\+::update (\begin{DoxyParamCaption}\item[{float}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+This is called prior to every frame. Use this to update your animation. 
+
+Implemented in \mbox{\hyperlink{class_scene_basic_a40b11f479361056d418edbf0a14c9a59}{Scene\+Basic}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Cranfield\+\_\+\+M\+S\+C/\+Visualisation/\+Q\+T/\+Assignment/scene.\+h\end{DoxyCompactItemize}

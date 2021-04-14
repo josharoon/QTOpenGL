@@ -1,0 +1,4 @@
+#ifndef CONTROLWIDGET_H
+#define CONTROLWIDGET_H
+
+#endif // CONTROLWIDGET_H

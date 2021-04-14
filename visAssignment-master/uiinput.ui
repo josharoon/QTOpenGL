@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>uiInput</class>
+ <widget class="QWidget" name="uiInput">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>587</width>
+    <height>681</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>59</y>
+     <width>391</width>
+     <height>208</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>Line Defenition</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>b</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QDoubleSpinBox" name="bX"/>
+            </item>
+            <item>
+             <widget class="QDoubleSpinBox" name="bY"/>
+            </item>
+            <item>
+             <widget class="QDoubleSpinBox" name="bY_2"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>+</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="text">
+               <string>u</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QDoubleSpinBox" name="doubleSpinBox_2"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="text">
+               <string>d</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QDoubleSpinBox" name="doubleSpinBox_3"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>alpha</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_4"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="eyeLabelsLayout">
+        <item>
+         <widget class="QLabel" name="eyeXlabel">
+          <property name="text">
+           <string>Eye X</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="eyeZlabel">
+          <property name="text">
+           <string>Eye Y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="eyeYlabel">
+          <property name="text">
+           <string>Eye Z</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="eyeSpinBoxLayout">
+        <item>
+         <widget class="QDoubleSpinBox" name="eyeXspin"/>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="eyeYspin"/>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="eyeZspin"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Defaults">
+        <property name="text">
+         <string>Reset to Defaults</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="LookAtLabelsLayout">
+        <item>
+         <widget class="QLabel" name="LookAtXlabel">
+          <property name="text">
+           <string>Look at  X</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="LookAtZlabel">
+          <property name="text">
+           <string>Look at Y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="LookAtYlabel">
+          <property name="text">
+           <string>Look at Z</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="LookAtSpinBoxLayout">
+        <item>
+         <widget class="QDoubleSpinBox" name="LookAtZspin"/>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="LookAtXspin"/>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="LookAtYspin"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

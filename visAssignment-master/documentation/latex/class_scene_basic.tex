@@ -1,0 +1,133 @@
+\hypertarget{class_scene_basic}{}\doxysection{Scene\+Basic Class Reference}
+\label{class_scene_basic}\index{SceneBasic@{SceneBasic}}
+
+
+Inheritance diagram for Scene\+Basic\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{class_scene_basic__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Scene\+Basic\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{class_scene_basic__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_scene_basic_ae9e3ab95d1c67bcd4156820bb08d57ea}\label{class_scene_basic_ae9e3ab95d1c67bcd4156820bb08d57ea}} 
+void {\bfseries set\+Matrices} (vec3 eye, vec3 point, mat4 rot)
+\item 
+\mbox{\Hypertarget{class_scene_basic_adbf1558f57f77208b3bb540605366b06}\label{class_scene_basic_adbf1558f57f77208b3bb540605366b06}} 
+void {\bfseries create\+Rot\+Matrix} ()
+\item 
+\mbox{\Hypertarget{class_scene_basic_a73869c7afb220445bb0ec92c6aaa6897}\label{class_scene_basic_a73869c7afb220445bb0ec92c6aaa6897}} 
+void {\bfseries create\+Trans\+Matrix} ()
+\item 
+\mbox{\Hypertarget{class_scene_basic_a7202b77c8387655d8504c58fe27bcdf7}\label{class_scene_basic_a7202b77c8387655d8504c58fe27bcdf7}} 
+void {\bfseries set\+Dnorm} (vec3 d)
+\item 
+void \mbox{\hyperlink{class_scene_basic_a0575ddd74a9f9a5f238def19657f275e}{init\+Scene}} ()
+\item 
+void \mbox{\hyperlink{class_scene_basic_a60dca4ee898ddad4437ec1e655097e9d}{render}} (vec3 eye, vec3 point)
+\item 
+void \mbox{\hyperlink{class_scene_basic_af8a829370fa5e7386f46b5b659f3a083}{resize}} (int, int)
+\item 
+void \mbox{\hyperlink{class_scene_basic_a40b11f479361056d418edbf0a14c9a59}{update}} (float t)
+\item 
+\mbox{\Hypertarget{class_scene_basic_a5cee9df03b2a8d34272571de7141c003}\label{class_scene_basic_a5cee9df03b2a8d34272571de7141c003}} 
+void {\bfseries set\+Line\+Data} (float line\mbox{[}6\mbox{]})
+\item 
+\mbox{\Hypertarget{class_scene_basic_a70dafca12373e7eed2d160ce8a6b31b4}\label{class_scene_basic_a70dafca12373e7eed2d160ce8a6b31b4}} 
+void {\bfseries set\+Rot} ()
+\item 
+\mbox{\Hypertarget{class_scene_basic_a2ab98b465d3345ee2b57e6fd73b6d373}\label{class_scene_basic_a2ab98b465d3345ee2b57e6fd73b6d373}} 
+void {\bfseries set\+Alpha} (float alpha)
+\item 
+\mbox{\Hypertarget{class_scene_basic_a3f335f07a775a9279ca497184425946a}\label{class_scene_basic_a3f335f07a775a9279ca497184425946a}} 
+void {\bfseries set\+Defaults} ()
+\item 
+\mbox{\Hypertarget{class_scene_basic_abe43716a4f7a637850f725fcf14d4e5f}\label{class_scene_basic_abe43716a4f7a637850f725fcf14d4e5f}} 
+void {\bfseries print\+Active\+Uniforms} (G\+Luint program\+Handle)
+\item 
+\mbox{\Hypertarget{class_scene_basic_a3a475225ffef7d3227401d762c7f2744}\label{class_scene_basic_a3a475225ffef7d3227401d762c7f2744}} 
+void {\bfseries print\+Active\+Attribs} (G\+Luint program\+Handle)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 11 of file scenebasic.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_scene_basic_a0575ddd74a9f9a5f238def19657f275e}\label{class_scene_basic_a0575ddd74a9f9a5f238def19657f275e}} 
+\index{SceneBasic@{SceneBasic}!initScene@{initScene}}
+\index{initScene@{initScene}!SceneBasic@{SceneBasic}}
+\doxysubsubsection{\texorpdfstring{initScene()}{initScene()}}
+{\footnotesize\ttfamily void Scene\+Basic\+::init\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Load textures, initialize shaders, etc. 
+
+Implements \mbox{\hyperlink{class_scene_ae76b830c1156bb40bd744afb63776be2}{Scene}}.
+
+
+
+Definition at line 112 of file scenebasic.\+cpp.
+
+\mbox{\Hypertarget{class_scene_basic_a60dca4ee898ddad4437ec1e655097e9d}\label{class_scene_basic_a60dca4ee898ddad4437ec1e655097e9d}} 
+\index{SceneBasic@{SceneBasic}!render@{render}}
+\index{render@{render}!SceneBasic@{SceneBasic}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Scene\+Basic\+::render (\begin{DoxyParamCaption}\item[{vec3}]{eye,  }\item[{vec3}]{point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Draw your scene. 
+
+Implements \mbox{\hyperlink{class_scene_a213557d88d9ca606e33e5e32d849bdcc}{Scene}}.
+
+
+
+Definition at line 340 of file scenebasic.\+cpp.
+
+\mbox{\Hypertarget{class_scene_basic_af8a829370fa5e7386f46b5b659f3a083}\label{class_scene_basic_af8a829370fa5e7386f46b5b659f3a083}} 
+\index{SceneBasic@{SceneBasic}!resize@{resize}}
+\index{resize@{resize}!SceneBasic@{SceneBasic}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily void Scene\+Basic\+::resize (\begin{DoxyParamCaption}\item[{int}]{,  }\item[{int}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Called when screen is resized 
+
+Implements \mbox{\hyperlink{class_scene_a454bd0a09c125201fbb32e15d4f62fa3}{Scene}}.
+
+
+
+Definition at line 362 of file scenebasic.\+cpp.
+
+\mbox{\Hypertarget{class_scene_basic_a40b11f479361056d418edbf0a14c9a59}\label{class_scene_basic_a40b11f479361056d418edbf0a14c9a59}} 
+\index{SceneBasic@{SceneBasic}!update@{update}}
+\index{update@{update}!SceneBasic@{SceneBasic}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Scene\+Basic\+::update (\begin{DoxyParamCaption}\item[{float}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+This is called prior to every frame. Use this to update your animation. 
+
+Implements \mbox{\hyperlink{class_scene_aafa9ccf4d019005fdd41672afd13a7a9}{Scene}}.
+
+
+
+Definition at line 226 of file scenebasic.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Cranfield\+\_\+\+M\+S\+C/\+Visualisation/\+Q\+T/\+Assignment/scenebasic.\+h\item 
+D\+:/\+Cranfield\+\_\+\+M\+S\+C/\+Visualisation/\+Q\+T/\+Assignment/scenebasic.\+cpp\end{DoxyCompactItemize}

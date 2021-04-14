@@ -1,0 +1,99 @@
+\hypertarget{class_g_l_s_l_program}{}\doxysection{G\+L\+S\+L\+Program Class Reference}
+\label{class_g_l_s_l_program}\index{GLSLProgram@{GLSLProgram}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a31f24024046d5ed7646d0c53df4898dc}\label{class_g_l_s_l_program_a31f24024046d5ed7646d0c53df4898dc}} 
+bool {\bfseries compile\+Shader\+From\+File} (const char $\ast$file\+Name, G\+L\+S\+L\+Shader\+::\+G\+L\+S\+L\+Shader\+Type type)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a428c7ce6d50b7100d06c621e6647dda8}\label{class_g_l_s_l_program_a428c7ce6d50b7100d06c621e6647dda8}} 
+bool {\bfseries compile\+Shader\+From\+String} (const string \&source, G\+L\+S\+L\+Shader\+::\+G\+L\+S\+L\+Shader\+Type type)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_afc8f73c15d9696c49783b86a187123be}\label{class_g_l_s_l_program_afc8f73c15d9696c49783b86a187123be}} 
+std\+::string {\bfseries load\+File\+To\+String} (const char $\ast$fname)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_afe85e8fe71e8b906f72ca3858531fa39}\label{class_g_l_s_l_program_afe85e8fe71e8b906f72ca3858531fa39}} 
+void {\bfseries load\+\_\+shader} (G\+Luint shaderobject, const char $\ast$shadersourcefilename)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_ae34d52138ce5780b39a6396e68b90349}\label{class_g_l_s_l_program_ae34d52138ce5780b39a6396e68b90349}} 
+void {\bfseries glcpp\+Shader\+Source} (G\+Luint shader, std\+::string const \&shader\+\_\+string)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_ae4fe65254ed23ef5fba32dd4b7a3bee2}\label{class_g_l_s_l_program_ae4fe65254ed23ef5fba32dd4b7a3bee2}} 
+G\+Luint {\bfseries create\+Shader} (G\+Lenum shader\+Type)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_ae1ebde6b1ea8269f37064adb8e6d857f}\label{class_g_l_s_l_program_ae1ebde6b1ea8269f37064adb8e6d857f}} 
+void {\bfseries compile\+Shader} (G\+Luint shader)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a4eebc77a6efe271bbf5eba25e8a27b66}\label{class_g_l_s_l_program_a4eebc77a6efe271bbf5eba25e8a27b66}} 
+void {\bfseries check\+Compile\+Status} (G\+Luint shader)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a4b09d65133e3d9495315c2db2fb9295d}\label{class_g_l_s_l_program_a4b09d65133e3d9495315c2db2fb9295d}} 
+void {\bfseries attach\+Shader} (G\+Luint shader)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a79c92c1c9a1a09c0a091cd52a8f602c6}\label{class_g_l_s_l_program_a79c92c1c9a1a09c0a091cd52a8f602c6}} 
+bool {\bfseries link} ()
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a0ea2aeacb4361b37f145246430134bb6}\label{class_g_l_s_l_program_a0ea2aeacb4361b37f145246430134bb6}} 
+void {\bfseries use} ()
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a07aaaf69f5837deb59a7551dc323f667}\label{class_g_l_s_l_program_a07aaaf69f5837deb59a7551dc323f667}} 
+bool {\bfseries create\+Object} ()
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_ac03cbf803fbcc60d3ff4b3b6d4ecbaa6}\label{class_g_l_s_l_program_ac03cbf803fbcc60d3ff4b3b6d4ecbaa6}} 
+string {\bfseries log} ()
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a37f5a6e85135bc51ed4a94712bacde76}\label{class_g_l_s_l_program_a37f5a6e85135bc51ed4a94712bacde76}} 
+G\+Luint {\bfseries get\+Handle} ()
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_ad0d1efa38db415e35d9a329a93828815}\label{class_g_l_s_l_program_ad0d1efa38db415e35d9a329a93828815}} 
+bool {\bfseries is\+Linked} ()
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a54589ae245f6fac51f79a6617c91240b}\label{class_g_l_s_l_program_a54589ae245f6fac51f79a6617c91240b}} 
+void {\bfseries bind\+Attrib\+Location} (G\+Luint location, const char $\ast$name)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a44270f942de121ef2493e26f1226a902}\label{class_g_l_s_l_program_a44270f942de121ef2493e26f1226a902}} 
+void {\bfseries bind\+Frag\+Data\+Location} (G\+Luint location, const char $\ast$name)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a85e4c896c2a8524cb4574a064a2dfb0c}\label{class_g_l_s_l_program_a85e4c896c2a8524cb4574a064a2dfb0c}} 
+void {\bfseries set\+Uniform} (const char $\ast$name, float x, float y, float z)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a8784d794a6dbe97903d85bd0135a61c8}\label{class_g_l_s_l_program_a8784d794a6dbe97903d85bd0135a61c8}} 
+void {\bfseries set\+Uniform} (const char $\ast$name, const vec3 \&v)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_aadf3691c119baac516735b0d01b85f7e}\label{class_g_l_s_l_program_aadf3691c119baac516735b0d01b85f7e}} 
+void {\bfseries set\+Uniform} (const char $\ast$name, const vec4 \&v)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_aae087de52f91a47ac23c9f6ebf369bc3}\label{class_g_l_s_l_program_aae087de52f91a47ac23c9f6ebf369bc3}} 
+void {\bfseries set\+Uniform} (const char $\ast$name, float val)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a437782e359f10918044f1bbad0a98148}\label{class_g_l_s_l_program_a437782e359f10918044f1bbad0a98148}} 
+void {\bfseries set\+Uniform} (const char $\ast$name, int val)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_acfab16fafb4617f0625f170b39716eb8}\label{class_g_l_s_l_program_acfab16fafb4617f0625f170b39716eb8}} 
+void {\bfseries set\+Uniform} (const char $\ast$name, bool val)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a44a7ace14e6c82311526e47264957fa9}\label{class_g_l_s_l_program_a44a7ace14e6c82311526e47264957fa9}} 
+void {\bfseries set\+Uniform} (const char $\ast$name, const mat4 \&m)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a69bd967b17f6b06e9fd4772b25e86396}\label{class_g_l_s_l_program_a69bd967b17f6b06e9fd4772b25e86396}} 
+void {\bfseries set\+Uniform} (const char $\ast$name, const mat3 \&m)
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_a75e11d36a5b634c58a84caa96c9c38e4}\label{class_g_l_s_l_program_a75e11d36a5b634c58a84caa96c9c38e4}} 
+void {\bfseries print\+Active\+Uniforms} ()
+\item 
+\mbox{\Hypertarget{class_g_l_s_l_program_aab7c8bc0e5d0b75a9eb0c60de3cda5b5}\label{class_g_l_s_l_program_aab7c8bc0e5d0b75a9eb0c60de3cda5b5}} 
+void {\bfseries print\+Active\+Attribs} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 21 of file glslprogram.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Cranfield\+\_\+\+M\+S\+C/\+Visualisation/\+Q\+T/\+Assignment/glslprogram.\+h\item 
+D\+:/\+Cranfield\+\_\+\+M\+S\+C/\+Visualisation/\+Q\+T/\+Assignment/glslprogram.\+cpp\end{DoxyCompactItemize}
